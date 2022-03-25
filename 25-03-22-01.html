@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>JavaScript Example</title>
+
+    <script>
+        function checkevenodd() 
+        {
+            var num = parseInt(prompt("Enter a positive number."));
+
+            if (num % 2 == 0) {
+                //document.getElementById("result").innerHTML = num + " is an Even Number.";
+                alert("You have enterd an Even Number");
+            }
+            else 
+            {
+                 document.getElementById("result").innerHTML = num+ " is an Odd Number";
+            }
+        }
+
+        function style1()
+        {
+            document.getElementById("para1").style.backgroundColor ="red";
+            document.getElementById("para1").style.fontSize="30px";
+            document.getElementById("para1").style.color="white";
+        }
+
+        function printTable()
+        {
+            var num = parseInt(prompt("Enter a positive number."));
+
+            var i  = 1;
+
+            for (i =1 ; i<= 10 ;i++)
+            {
+                data =  document.getElementById("result").innerHTML;
+                document.getElementById("result").innerHTML = data+"<br/>"+num+"X"+i+"="+(num*i);
+            }
+        }
+
+        function check()
+        {
+            num1 = 10;
+            num2 = "10";
+            if(num1 === num2)
+            {
+                document.getElementById("result").innerHTML = "Values are equal";
+            }
+            else
+            {
+                document.getElementById("result").innerHTML = "Values are not equal";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <p id="para1">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+        of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder
+        before the final copy is available.</p>
+    <p id="result"></p>
+    <button onclick="checkevenodd()">Click to check Even/Odd</button>
+    <button onclick="style1()">Style 1</button>
+    <button onclick="check()">check</button>
+    <button onclick="printTable()">Print Table</button>
+</body>
+
+</html>

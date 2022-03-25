@@ -1,0 +1,38 @@
+a 
+{
+    margin-right: 200px;
+    font-size: 20px;
+    color:white;
+}
+nav 
+{
+    background-color: black;
+    text-align: center;
+}
+h1 
+{
+    color:blue;
+    text-align: center;
+}
+img 
+{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p
+{
+    font-family:"sans-serif";
+    text-align: justify;
+    color:salmon;
+    font-size: 30;
+}
+
+td{
+    color:yellow;
+}
+
+table
+{
+    padding-top: 50px;
+}
